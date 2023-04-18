@@ -1,15 +1,32 @@
-<head>
-  <title>mario 64 emulator online</title>
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title></title>
+	<style>
+	body {
+		margin: 0;
+		padding: 0;
+		background: transparent;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	</style>
+	<meta name="robots" content="noindex, nofollow"/>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<body>
 <a href="https://therandomspoon.github.io/RandDOS/"> Take me back to RandDOS</a>
 <a href="Stuff.txt" target="_blank"> Control info</a>
-<div style="width:640px;height:480px;max-width:100%">
-        <div id="game"></div>
-      </div>
-<script type="text/javascript">
-    EJS_player = '#game';
-    EJS_gameUrl = 'Super Mario 64 (USA).z64'; // Url to Game rom
-    EJS_core = 'n64';
+<div id="emu"></div>
+<script>
+var NepPlayer = "#emu";    
+var NepEmu = "n64";        
+var NepZoom = "enable";     
+var NepAutoStart = true;
+var NepMaxWidth = "800px";
+var NepLang = "en";
+var gameUrl = "32112_super-mario-64-usa.zip"; 
+var SaveTitle = "SaveName"; 
 </script>
-<script src="https://www.emulatorjs.com/loader.js"></script>
+<script src="//mem.neptunjs.com/njs/njsLoader.js" type="text/javascript"></script>
+</body>
+<a href="https://therandomspoon.github.io/RandDOS/"> Take me back to RandDOS</a>
+<a href="Stuff.txt" target="_blank"> Control info</a>
